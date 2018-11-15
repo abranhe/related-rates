@@ -1,0 +1,26 @@
+.article {
+  line-height: 1.2;
+  font-family: Calibri,
+  sans-serif;
+  margin-left:120px;
+  margin-right:40px;
+}
+
+div.boxed {border:1px double #E6CDA3; width:40%; padding:1em; margin:auto}
+
+div.instructions div.boxed {
+	border: 2px solid #E6CDA3; border-bottom:none; border-right:none;
+	width:40%; padding:1em; margin:auto; margin-top:.5em; margin-bottom:.5em;
+	background-color:#FFE9C4;
+}
+
+div.footer {font-size: small; padding-top:.5em; border-width:1px; border-top-style:dotted; border-color:#E6CDA3;}
+
+li {padding-bottom: .6em}
+
+ol ul {list-style-type: disc;}
+ol ol {list-style-type: lower-alpha;}
+
+.textButton {color: rgb(150,0,0); border:solid 1px rgb(150,0,0);
+			 padding-left:.7ex; padding-right:.7ex; margin-left:.5ex; margin-right:.5ex;
+			 cursor:pointer}

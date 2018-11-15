@@ -1,0 +1,104 @@
+<!--------------------------------------------------------------------------------
+
+Related Rates Project.
+
+This website is open source, want to improve it?
+Open a pull request at https://github.com/abranhe/related-rates
+
+Carlos Abraham Hernandez
+abranhe.com <abraham@abranhe.com>
+
+Calculus 1 ~ Fall 2018
+-------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Related Rates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+		<link rel="stylesheet" href="style.css"; type="text/css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+		<script type="text/javascript" language="javascript" src="https://web.geogebra.org/4.4/web/web.nocache.js"></script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Related Rates</h1>
+      <p class="subtitle">
+        The Falling ladder
+      </p>
+			<img src="assets/ladder.jpg">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content is-medium">
+      <p>A 16 ft ladder is leaning against a wall on flat ground. The wall is to
+        the left of the ladder. The base of the ladder starts to slide away from
+        the wall. When the base has slid to 8 ft from the house, it is moving
+        horizontally at the rate of 2 ft/sec.
+      </p>
+      <p>
+        How fast is the ladder’s top sliding down the wall when the base
+         is 8 ft from the house?
+      </p>
+    </div>
+  </section>
+
+	<section class="section">
+		<div class="container">
+			<article
+				class="geogebraweb article"
+				data-param-id="ggbApplet"
+				data-param-width="401"
+				data-param-height="404"
+				data-param-showResetIcon="false"
+				data-param-enableRightClick="false"
+				data-param-enableLabelDrags="false"
+				data-param-showMenuBar="false"
+				data-param-showToolBar="false"
+				data-param-showAlgebraInput="false"
+				data-param-useBrowserForJS="true" data-param-ggbbase64="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">
+		</article>
+    </div>
+  </section>
+
+  <br>
+
+  <section class="section">
+    <div class="container">
+      <table class="table is-hoverable is-striped is-bordered">
+        <thead>
+          <tr>
+            <th>Team Integrants</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Carlos Hernandez</th>
+          </tr>
+          <tr>
+            <th>Alex Trig</th>
+          </tr>
+          <tr>
+            <th>Carlos ...</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+	<section class="section">
+		<footer class="footer">
+			<div class="content has-text-centered">
+				<p>
+					<strong>Related Rates</strong> by <a href="https://twitter.com/abranhe">Carlos Abraham</a>, Alex Trig and Carlos.
+					This is part of the Project No. 1 of the <strong>Calculus Ⅰ</strong> class.
+				</p>
+			</div>
+		</footer>
+	</section>
+</body>
+</html>
